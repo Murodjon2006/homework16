@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+
+
+
+
+*_{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    background-image: url(../img/hero_img.png);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+.hero_text{
+    padding-top: 120px;
+    padding-bottom: 400px;
+    font-weight: 300;
+}
+.hero_text button{
+    padding: 16px 60px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: coral;
+    font-size: 16px;
+}
+.hero_text button:hover{
+    box-shadow:-20px 10px 10px 5px rgba(26, 25, 25, 0.448);
+    transform: scale(1.04);
+}
+
+.hero_text span{
+    color: tomato;
+}
+section{
+   padding-bottom: 50px;
+
+
+}
+
+section p{
+  
+ line-height: 35px;
+ 
+ }
+ section button{
+    color: white;
+    background-color: orange;
+ }
+ section button:hover{
+    box-shadow:-20px 10px 10px 5px rgba(78, 77, 77, 0.448);
+    transform: scale(1.04);
+ }
+
+.section1 .container{
+    display: flex;justify-content:space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+.section1_text h1{
+color: orange;
+font-size: 40px;
+}
+.section1_text button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+.section2 .container{
+    display: flex;justify-content:space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+.section2 .container img{
+    width: 36%;
+}
+.section2_text h1{
+color: orange;
+font-size: 40px;
+}
+.section2_text button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+.section3 .container{
+    display: flex;justify-content:space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.section3_text h1{
+color: orange;
+font-size: 40px;
+}
+.section3_text button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+.suggestions{
+    text-align:center;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 
+    60px;
+}
+.suggestions p{
+    font-family: "Open Sans", sans-serif;
+    line-height: normal;
+    font-size: 22px;
+}
+.suggestions h2{
+    font-size: 28px;
+}
+.section5{
+    text-align: center;
+    line-height:20px;
+}
+.section5 h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.section5 span{
+    color: orange;
+    font-weight: 600;
+    font-size: 60px;
+}
+.section5 button{
+    padding: 13px 60px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.brands>img{
+    margin-bottom: 60px;
+}
+.section6{
+    text-align: center;
+   
+}
